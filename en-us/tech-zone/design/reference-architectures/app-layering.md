@@ -69,7 +69,7 @@ Many Citrix customers must support a significant number of applications and a co
 
 Citrix App Layering simplifies the management of this complex scenario.
 
-[![AL-Image-2](/en-us/tech-zone/design/media/reference-architectures_app-layering_002.png)](/en-us/tech-zone/design/media/reference-architectures_app-layering_002.png)
+[![AL-Image-2](/en-us/tech-zone/design/media/reference-architectures_app-layering_002.png)](/en-us/tech-zone/design/media/reference-architectures_app-layering_002.png) (all application layers made with a particular OS layer are tied to that OS layer.)
 
 App Layering allows the administrators to manage the operating system and applications as individual entities using layers. For example, Windows needs to be patched, the patch is made to the OS layer once and all the images that use OS layer updated by the App Layering appliance. If Microsoft Office is used in 10 images, upgrading this Office is simpler by adding a version to the Office layer. Eventually all those 10 images are updated automatically.
 
